@@ -1,0 +1,29 @@
+h1 {
+  font-size: 6px; }
+
+h2 {
+  font-size: 2px; }
+
+h3 {
+  font-size: 5;
+  opacity: 0.2;
+  padding-right: 3.5px; }
+
+h4 {
+  width: 20px;
+  width: 30px; }
+
+h5:after {
+  content: "Sorry, the argument sans-serif is a string."; }
+
+h6 {
+  padding: 25px; }
+
+p:after {
+  content: "Your name is: Himanshu Pandey"; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+/*# sourceMappingURL=main.css.map */
