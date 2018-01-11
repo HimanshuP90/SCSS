@@ -1,0 +1,58 @@
+.profile-img {
+  border-radius: 999px;
+  height: 150px;
+  width: 150px;
+  border: 5px solid seagreen; }
+
+h1 {
+  color: green; }
+
+p {
+  font-size: 24px;
+  font-family: Comic Sans; }
+
+nav ul {
+  background: #2c3e50;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none; }
+nav a:hover {
+  background-color: #16a085; }
+
+.panel, .little-panel, .big-panel {
+  border: 3px solid dodgerblue;
+  background: #eea571;
+  margin: 10px; }
+
+/*
+
+ Mixins allow you to define styles that can be re-used throughout the stylesheet without needing to resort to non-semantic classes like .float-left.
+ 
+ Mixins can also contain full CSS rules, and anything else allowed elsewhere in a Sass document. They can even take arguments which allows you to produce a wide variety of styles with very few mixins.
+
+
+*/
+.little-panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px; }
+
+.big-panel {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 32px;
+  padding: 25px; }
+
+/*# sourceMappingURL=main.css.map */
